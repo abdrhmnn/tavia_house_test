@@ -1,0 +1,143 @@
+body{
+  background: #F9F3F2;
+}
+
+.head-judul{
+  position: relative;
+  background-color: #fff;
+}
+
+.txt-logo{
+  font-family: 'Advent Pro';
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  line-height: 86px;
+  font-size: 72px;
+  color: #737373;
+}
+
+.head-circle{
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  z-index: -99;
+  transform: translate(-50%,-50%);
+  width: 484px;
+  height: 484px;
+  background: linear-gradient(178.18deg, #E8D0A8 -13.56%, #AF988A 158.3%);
+}
+
+.login-item{
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-item .log{
+  border-right: 1px solid #CDCDCD;
+}
+
+.log-judul, .reg-judul{
+  font-family: 'Rubik';
+  font-style: normal;
+}
+
+.log-judul h3{
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: #8A7F77;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+}
+
+.log-judul p{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #402B2B;
+  margin-bottom: 10px;
+}
+
+.log-form-input{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.log-form-input div input{
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #C5AE96;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px 10px 10px 20px;
+}
+
+.log-btn-submit{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.log-forgot-pass p{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0;
+  color: #D5A26E;
+}
+
+.log-forgot-pass p:hover{
+  cursor: pointer;
+}
+
+.log-button{
+  box-shadow: 5px solid black;
+}
+
+.log-button button{
+  width: 220px;
+  height: 60px;
+  background: #D5A26E;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  box-shadow: 5px 5px 1px #b59270;
+}
+
+.reg-judul h3{
+  text-transform: uppercase;
+  text-align: right;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: #8A7F77;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+}
+
+.reg-judul p{
+  text-align: right;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #402B2B;
+}
+
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
