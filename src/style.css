@@ -1,7 +1,9 @@
+/* body style */
 body{
   background: #F9F3F2;
 }
 
+/* this styles for elements are in HeaderSection.vue file */
 .head-judul{
   position: relative;
   background-color: #fff;
@@ -27,7 +29,9 @@ body{
   height: 484px;
   background: linear-gradient(178.18deg, #E8D0A8 -13.56%, #AF988A 158.3%);
 }
+/* End - HeaderSection.vue */
 
+/* this styles for elements are in LoginContentSection.vue file */
 .login-item{
   width: 100%;
   padding: 150px 50px 50px 50px;
@@ -61,6 +65,27 @@ body{
   margin-bottom: 10px;
 }
 
+.reg-judul h3{
+  text-transform: uppercase;
+  text-align: right;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: #8A7F77;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+}
+
+.reg-judul p{
+  text-align: right;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #402B2B;
+}
+/* End - LoginContentSection.vue */
+
+/* this styles for elements are in LoginFormSection.vue and RegisterFormSection.vue file */
 .log-form-input{
   display: flex;
   flex-direction: column;
@@ -114,7 +139,9 @@ body{
   border: none;
   box-shadow: 5px 5px 1px #b59270;
 }
+/* End - LoginFormSection.vue and RegisterFormSection.vue */
 
+/* this styles for elements are in RegisterFormSection.vue file */
 .res-form-input{
   display: flex;
   flex-direction: column;
@@ -127,26 +154,9 @@ body{
   padding-left: 25px;
   margin-top: 20px;
 }
+/* End - RegisterFormSection.vue */
 
-.reg-judul h3{
-  text-transform: uppercase;
-  text-align: right;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 40px;
-  color: #8A7F77;
-  letter-spacing: 0.1em;
-  margin-bottom: 20px;
-}
-
-.reg-judul p{
-  text-align: right;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 30px;
-  color: #402B2B;
-}
-
+/* this styles for elements are in ProfileSection.vue file */
 .img-profile{
   text-align: center;
 }
@@ -167,7 +177,9 @@ body{
   color: #5E6282;
   text-transform: capitalize
 }
+/* End - ProfileSection.vue */
 
+/* this styles for elements are in ProfileContentSection.vue file */
 .cont-profile-sect{
   display: flex;
   justify-content: space-between;
@@ -220,6 +232,7 @@ body{
   text-transform: uppercase;
   color: #707C97;
 }
+/* End - ProfileContentSection.vue */
 
 /* add responsive breakpoints */
 /* for tablets and up */

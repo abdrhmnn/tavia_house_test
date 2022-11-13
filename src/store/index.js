@@ -19,6 +19,7 @@ const moduleLogin = {
 		getDataUser(state, data) {
 			state.userHasLogined = data;
 		},
+		// this code below show how to change input type from data state
 		// showPass(state) {
 		// 	if (state.showPassword === false) {
 		// 		state.showPassword = true;

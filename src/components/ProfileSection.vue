@@ -1,6 +1,7 @@
 <template>
 
   <HeaderSection />
+  <!-- Profile section -->
   <div class="cont-img-profile">
     <div class="img-profile">
       <div>
@@ -9,8 +10,8 @@
       <div><p>agung & isti</p></div>
     </div>
   </div>
+  <!-- End profile section -->
   <ProfileContentSection />
-  <!-- <router-link to="/">Kembali</router-link> -->
 
 </template>
 
