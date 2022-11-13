@@ -15,6 +15,7 @@
         <div class="reg-judul col-md-6">
           <h3>daftar</h3>
           <p>Buat Undangan Pernikahan Digital Kamu dengan elegan, <br /><span style="font-weight: bold;">your alternative wedding invitation</span></p>
+          <RegisterFormSection />
         </div>
       </div>
     </div>
@@ -24,12 +25,14 @@
 
 <script>
 import LoginFormSection from "./LoginFormSection.vue";
+import RegisterFormSection from "./RegisterFormSection.vue";
 
 
 export default {
   name: 'LoginContentSection',
   components: {
-    LoginFormSection
+    LoginFormSection,
+    RegisterFormSection
   }
 }
 </script>

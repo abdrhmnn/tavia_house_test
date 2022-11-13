@@ -68,7 +68,7 @@ body{
   width: 80%;
 }
 
-.log-form-input div input{
+.log-form-input div input, .res-form-input div input{
   width: 100%;
   background: #FFFFFF;
   border: 1px solid #C5AE96;
@@ -104,7 +104,7 @@ body{
   box-shadow: 5px solid black;
 }
 
-.log-button button{
+.log-button button, .res-button button{
   width: 220px;
   height: 60px;
   background: #D5A26E;
@@ -114,6 +114,19 @@ body{
   font-weight: 700;
   border: none;
   box-shadow: 5px 5px 1px #b59270;
+}
+
+.res-form-input{
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+}
+
+.res-button button{
+  width: 100%;
+  text-align: left;
+  padding-left: 25px;
+  margin-top: 20px;
 }
 
 .reg-judul h3{
@@ -133,6 +146,81 @@ body{
   font-size: 18px;
   line-height: 30px;
   color: #402B2B;
+}
+
+.img-profile{
+  text-align: center;
+}
+
+.img-profile img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 150px;
+  border: 8px outset white;
+}
+
+.img-profile p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #5E6282;
+  text-transform: capitalize
+}
+
+.cont-profile-sect{
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: red; */
+  width: 850px;
+  margin: auto;
+}
+
+.email-profile-sect p, .nomer-profile-sect p{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  color: #402B2B;
+  margin-bottom: 0;
+}
+
+.email-profile-sect input, .nomer-profile-sect input{
+  width: 350px;
+  background: #FFFFFF;
+  border: 1px solid #C5AE96;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 20px;
+}
+
+.email-verified, .nomer-verified{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.log-out{
+  text-align: center;
+  width: 105px;
+  margin: 50px auto 0 auto;
+  cursor: pointer;
+}
+
+.log-out span:nth-child(1){
+  margin-right: 11px
+}
+
+.log-out span:nth-child(2){
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #707C97;
 }
 
 
