@@ -1,7 +1,7 @@
 <template>
 
   <div>
-    <div class="container">
+    <div>
       <div class="login-item row">
         <div class="log col-md-6">
           <div class="log-judul">
@@ -9,8 +9,6 @@
             <p>Masuk, dan buat undangan pernikahan kamu, kemudian share undangan kamu,</p>
           </div>
             <LoginFormSection />
-            <!-- <p>email : {{ email }}</p>
-            <p>password : {{ password }}</p> -->
         </div>
         <div class="reg-judul col-md-6">
           <h3>daftar</h3>

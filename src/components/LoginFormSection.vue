@@ -29,22 +29,22 @@
       type: 'password'
     }
   },
+  // i have struggled about CORS error and also i have tried to search how to solve this error
+  // and got a few solutions, starting add options in header request and add new configuration vue
+  // but all of it nothing works, this code below show how do i solve this problem
+  // and not only this you can check also in vue.config file
+
   // mounted(){
   //   fetch('https://www.getpostman.com/collections/97fa50515b797d0ff245', {
   //     headers: {
-  //       'Access-Control-Allow-Origin': '*',
-  //       'Access-Control-Allow-Methods': 'HEAD, GET, POST, PUT, PATCH, DELETE',
-  //       'Access-Control-Allow-Headers': 'Origin, Content-Type, X-Auth-Token'
+  //       "Access-Control-Allow-Origin": "*",
   //     }
   //   })
-  //     .then(res => res.json)
-  //     .then(data => this.$store.commit('getDataUser', data))
+  //   .then(res => res.json())
+  //   .then(data => this.$store.commit('getDataUser', data))
   // },
   methods:{
     handleSubmit(){
-      // console.log(this.$store.state.login)
-      // console.log(this.$store.state.login.email)
-      // console.log(this.$store.state.login.password)
       if(this.$store.state.login.email || this.$store.state.login.password){
         this.$router.push('/profile')
       }else{
@@ -66,13 +66,6 @@
       } else {
         this.type = 'password'
       }
-      // this.$store.commit('showPass')
-      // if(this.$store.state.login.typePass === "password"){
-      //   this.type = "text"
-      // }else{
-      //   this.type = "password"
-      // }
-      // console.log(this.$store.state.login.typePass)
     }
   }
 }

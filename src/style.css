@@ -29,10 +29,9 @@ body{
 }
 
 .login-item{
-  height: 700px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  padding: 150px 50px 50px 50px;
+  margin: auto !important;
 }
 
 .login-item .log{
@@ -171,9 +170,8 @@ body{
 
 .cont-profile-sect{
   display: flex;
-  justify-content: space-evenly;
-  /* background-color: red; */
-  width: 850px;
+  justify-content: space-between;
+  width: 750px;
   margin: auto;
 }
 
@@ -221,6 +219,70 @@ body{
   line-height: 24px;
   text-transform: uppercase;
   color: #707C97;
+}
+
+/* add responsive breakpoints */
+/* for tablets and up */
+@media screen and (max-width: 768px) {
+  .login-item .log{
+    border: none;
+    margin-bottom: 50px;
+  }
+
+  .reg-judul h3, .reg-judul p{
+    text-align: left;
+  }
+
+  .res-form-input{
+    padding-left: 0 !important;
+  }
+
+  .cont-profile-sect{
+    flex-direction: column;
+  }
+
+  .cont-profile-sect{
+    width: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .email-profile-sect, .nomer-profile-sect{
+    margin-top: 20px;
+  }
+}
+
+/* for desktops and up */
+@media screen and (max-width: 992px) { 
+  .login-item{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .log-judul h3, .reg-judul h3{
+    font-size: 25px;
+  }
+
+  .log-judul p, .reg-judul p{
+    font-size: 15px;
+  }
+
+  .log-forgot-pass p{
+    font-size: 13px;
+  }
+
+  .log-button button{
+    width: 160px;
+  }
+
+  .log-form-input{
+    width: 100%;
+    padding-right: 20px;
+  }
+
+  .res-form-input{
+    padding-left: 20px;
+  }
 }
 
 
